@@ -12,7 +12,17 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
 <!-- w3-content defines a container for fixed size centered content, 
 and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-top w3-container w3-light-grey">
 
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" 
+       onclick="toggleFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-house"></i> HOME</a>
+    <a href="#test" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-google"></i> TEST</a>
+    <!--<a href="#costarica" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-plane"></i> COSTA RICA</a>
+    <a href="#more" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> More</a>
+    <!--<a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red"><i class="fa fa-search"></i></a>-->
+  </div>
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-center" style="max-width:1500px">
@@ -25,8 +35,8 @@ and is wrapped around the whole page content, except for the footer in this exam
   
     <!-- Navbar (placed at the bottom of the header image) -->
   <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
-    <a href="#" class="w3-bar-item w3-button">Home</a>
-    <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
+    <a href="#home" class="w3-bar-item w3-button">Home</a>
+    <a href="#test" class="w3-bar-item w3-button">TEST</a>
     <a href="#contact" class="w3-bar-item w3-button">Contact</a>
   </div>
 </header>
@@ -37,7 +47,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 <!-- Blog entries -->
 <div class="w3-col l8 s12">
   <!-- Blog entry -->
-  <div class="w3-card-4 w3-margin w3-white">
+  <div class="w3-card-4 w3-margin w3-white" id="test">
     <img src="/w3images/woods.jpg" alt="Nature" style="width:100%">
     <div class="w3-container">
       <h3><b>TITLE HEADING</b></h3>
