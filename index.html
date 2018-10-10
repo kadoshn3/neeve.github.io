@@ -189,8 +189,23 @@ function onClick(element) {
       to give our group a tour we would never forget. From nap pods to airplane themed rooms to the floor of fun, we were ecstatic, we never
       wanted to leave. If the gourmet food wasn't enough to motivate any single one of us, the fact that its Google did.</p>
       <div class="w3-row">
-        <div class="w3-col m8 s12">
-          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+       
+       <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border" onclick="document.getElementById('id01').style.display='block'">
+           <b>READ MORE »</b></button></p>
+         <div id="id01" class="w3-modal w3-animate-opacity">
+           <div class="w3-modal-content w3-col-14 w3-animate-zoom">
+            <header class="w3-container w3-padding w3-light-grey w3-extra-large">More on Matt
+              <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-large w3-display-topright">&times;
+             </span>
+           </header>
+                <div class="w3-container w3-white">
+                     <p>Google motivates Matt, it drives his school work and keeps him on top of anything
+                 that could distract Matt from his goal.</p>
+                </div>
+          </div>
+         </div>
+         
         </div>
         <div class="w3-col m4 w3-hide-small">
           <p><span class="w3-padding-large w3-right"><b>Number of "Wow"s said  </b> <span class="w3-tag">1354</span></span></p>
