@@ -72,7 +72,22 @@ and is wrapped around the whole page content, except for the footer in this exam
         a new beginning.</p>
       <div class="w3-row">
         <div class="w3-col m8 s12">
-          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+         
+          <p><button class="w3-button w3-padding-large w3-white w3-border" onclick="document.getElementById('id01').style.display='block'">
+           <b>READ MORE »</b></button></p>
+     
+         <div id="id01" class="w3-modal w3-animate-opacity">
+           <div class="w3-modal-content w3-card-4">
+            <header class="w3-container w3-light-grey">Passions
+              <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-large w3-display-topright">&times;
+             </span>
+           </header>
+                <div class="w3-container w3-white">
+                     <p>Snowboarding</p>
+                </div>
+          </div>
+         </div>
+         
         </div>
         <div class="w3-col m4 w3-hide-small">
           <p><span class="w3-padding-large w3-right"><b>Max Speed    </b> <span class="w3-tag">61 mph</span></span></p>
