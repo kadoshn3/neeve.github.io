@@ -23,26 +23,20 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <div class="w3-bar" id="myNavbar">
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" 
        onclick="toggleFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-book"></i> HOME</a>
-    <a href="#google" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-google"></i> POLAND</a>
-    <a href="#costarica" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-plane"></i> ITALY</a>
-    <a href="#more" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> ALPS</a>
-    <!--<a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red"><i class="fa fa-search"></i></a>-->
+    <a href="#poland" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-google"></i> POLAND</a>
+    <a href="#italy" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-plane"></i> ITALY</a>
+    <a href="#alps" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> ALPS</a>
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#home" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
-    <a href="#google" class="w3-bar-item w3-button" onclick="toggleFunction()">GOOGLE</a>
-    <a href="#costarica" class="w3-bar-item w3-button" onclick="toggleFunction()">COSTA RICA</a>
+    <a href="#poland" class="w3-bar-item w3-button" onclick="toggleFunction()">POLAND</a>
+    <a href="#italy" class="w3-bar-item w3-button" onclick="toggleFunction()">ITALY</a>
+    <a href="#alps" class="w3-bar-item w3-button" onclick="toggleFunction()">ALPS</a>
   </div>
 </div>
-
-<!-- w3-content defines a container for fixed size centered content, 
-and is wrapped around the whole page content, except for the footer in this example -->
-
-<div class="w3-content" style="max-width:1400px" id="home">
-
+ 
+<div class="w3-content" style="max-width:1400px" id="poland">
 <header class="w3-container w3-center w3-padding-16"> 
 </header>
 
@@ -68,7 +62,7 @@ and is wrapped around the whole page content, except for the footer in this exam
      
          <div id="id01" class="w3-modal w3-animate-opacity">
            <div class="w3-modal-content w3-col-14 w3-animate-zoom">
-            <header class="w3-container w3-padding w3-light-grey w3-large">More on Matt
+            <header class="w3-container w3-padding w3-light-grey w3-large">More on Poland
               <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-large w3-display-topright">&times;
              </span>
            </header>
@@ -84,9 +78,9 @@ and is wrapped around the whole page content, except for the footer in this exam
 <hr>
  
  
-  <!-- GOOGLE -->
+  <!-- ITALY -->
 
-<div class="w3-card-4 w3-margin w3-white" id="google">
+<div class="w3-card-4 w3-margin w3-white" id="italy">
  <div class="w3-display-container w3-content">
   <img class="mySlides" src="This is Matt/Hudson River.jpg" alt="Hudson" style="width:100%">
   <img class="mySlides" src="This is Matt/Google.png" alt="Google Fam" style="width:100%">
@@ -198,34 +192,29 @@ function onClick(element) {
  
  <hr> 
  
- <!-- DEMO -->
-  <div class="w3-card-4 w3-margin w3-white" id="more">
+ <!-- ALPS -->
+  <div class="w3-card-4 w3-margin w3-white" id="alps">
     <img src="This is Matt/Volcano.png"  alt="Volcano" style="width:100%">
     <div class="w3-container">
-      <h3><b>COSTA RICA | ARENAL VOLCANO</b></h3>
-      <h5><span class="w3-opacity">January 2018</span></h5>
+      <h3><b>ALPS | PILA MOUNTAIN</b></h3>
+      <h5><span class="w3-opacity">January 2020</span></h5>
     </div>
     <div class="w3-container">
-      <p>Matt hiked through a rain forest to get to the active jaw dropping Arenal Volcano. Matt saw anteaters, sloths, and
-       yellow vipers along his journey.</p>
-      <!-- <div class="w3-row">
+      <p>Matt snowboarded through the breathtaking mountain screaming 9200 feet which pierced the blue sky.</p>
+      <div class="w3-row">
         <div class="w3-col m8 s12">
           <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
         </div>
         <div class="w3-col m4 w3-hide-small">
-          <p><span class="w3-padding-large w3-right"><b>Alcohol consumed    </b> <span class="w3-tag">1000</span></span></p>
+          <p><span class="w3-padding-large w3-right"><b>Max Speed    </b> <span class="w3-tag">60 mph</span></span></p>
         </div> 
-      </div> -->
+      </div> 
     </div>
   </div>
  </div>
  
 
-  
-
-
-
-<!-- Introduction menu -->
+<!-- Introduction Sidebar Train -->
 <div class="w3-col l4">
   <!-- About Card -->
   <div class="w3-card w3-margin w3-margin-top">
